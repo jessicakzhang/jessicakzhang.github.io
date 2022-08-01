@@ -7,8 +7,8 @@ author_profile: true
 
 
 Having grown up in Arizona where summer temperatures regularly exceed 100 degrees Fahrenheit, I religiously follow two simple rules: 
- * 1. Avoid going outside between 10 AM and 4 PM.
- * 2. If going outside is unavoidable, ALWAYS wear proper sun protection (sunscreen with minimum SPF 30, hats, sunglasses, the works) and seek shade. 
+1. Avoid going outside between 10 AM and 4 PM.
+2. If going outside is unavoidable, ALWAYS wear proper sun protection (sunscreen with minimum SPF 30, hats, sunglasses, the works) and seek shade. 
 
 Arizona has always been hot during the summer (no surprise there, it is located in the Sonoran desert after all), but climate change has made summer temperatures even more intense, not to mention worsening droughts and extending wildfire season for the rest of the Southwest. As a result, the risk of developing heat-related illnesses or death has also increased. Although the most effective way to avoid heat-related complications is by following rule 1, not going outside altogether during the day, what happens when you just can't avoid going outside? That's where rule 2 comes in. Whether you find shade from a man-made structure or naturally from tree cover, shade plays an important role in increasing your "thermal comfort" as temperature differences between shaded and unshaded surfaces may differ as much as 20-45 degrees F! And the air temperature in direct sunlight can feel 10-15 degrees warmer than it actually is in the shade. 
 
@@ -22,7 +22,7 @@ import geopandas as gpd
 import pandas as pd
 ```
 
-Then, we download the necessary data. From Google Earth Engine (https://earthengine.google.com/), I was able to download a GeoJSON file of the zip codes in Arizona and the mean tree cover per zip code. From the Census Bureau (https://data.census.gov/cedsci/), I downloaded a CSV table of household income information for Arizona zip codes. To only use the data for zip codes in Maricopa county, I also downloaded a text file of the zip codes and their corresponding county location from the Census Bureau.I stored the location of these files shown below:
+Then, we download the necessary data. From Google Earth Engine (https://earthengine.google.com/), I was able to download a GeoJSON file of the zip codes in Arizona and the mean tree cover per zip code. From the Census Bureau (https://data.census.gov/cedsci/), I downloaded a CSV table of household income information for Arizona zip codes. To only use the data for zip codes in Maricopa county, I also downloaded a text file of the zip codes and their corresponding county location from the Census Bureau. I stored the location of these files shown below:
 
 ```python
 path = "/Users/jessicazhang/Tree_vis/"
@@ -100,7 +100,7 @@ for i, row in income_maricopa.iterrows():
     row['Med_Income'] = float(row['Med_Income'])
     row['ZCTA5CE10'] = row['ZCTA5CE10'][6:11]
 ```
-In the code above, we've created a dataframe with two columns taken from the original fincome file, the zip code and median household income columns. This is the only pertinent information we need. I've also gone ahead and renamed the columns (from "NAME" to "ZCTA5CE10" and "S1903_C03_001E" to "Med_Income") to better represent what each column represents. I've also converted the incomes in column "Med_Income" from strings to floats. Again, since the income file uses ZCTA5 ##### notation for zip codes, to make the GeoJSON dataframe (stored as maricopa) combatible to merge with our income dataframe (stored as income_maricopa), the last line of gets rid of the 'ZCTA5 ' prefix, allowing us to keep only the five digits in the zip code.
+In the code above, we've created a dataframe with two columns taken from the original fincome file, the zip code and median household income columns. This is the only pertinent information we need. I've also gone ahead and renamed the columns (from "NAME" to "ZCTA5CE10" and "S1903_C03_001E" to "Med_Income") to better represent what each column represents. I've also converted the incomes in column "Med_Income" from strings to floats. Again, since the income file uses ZCTA5 ##### notation for zip codes, to make the GeoJSON dataframe (stored as maricopa) combatible to merge with our income dataframe (stored as income_maricopa), the last line of gets rid of the 'ZCTA5' prefix, allowing us to keep only the five digits in the zip code.
 
 Now, let's merge the maricopa and income_maricopa dataframes:
 ```python
