@@ -8,7 +8,7 @@ author_profile: true
 
 The Game of Life, created by John Conway in 1970, is perhaps the best known example of cellular automaton. For those unfamiliar, cellular automaton is a collection of cells that live on a grid. Each cell has a state, and each cell has a neighborhood, which can be defined in any number of ways. At each time unit, each cell represents one of a finite set of states, and each update of a cell state is obtained by taking into account the states of the cells in its neighborhood. Cellular automaton are attractive because despite their apparent simplicity, they can be used to model various kinds of complex phenomena in many scientific fields, including biology, physics, and computer science.
 
-Conway's Game of Life is a zero-player. In other words, the evolution of the grid of cells is determined by its initial state. 
+Conway's Game of Life is a zero-player game. In other words, the evolution of the grid of cells is determined by its initial state. 
  * The cells live on a grid that is a two-dimensional orthogonal grid of square cells. For the purpose of this implementation, this grid will be 100 by 100 squares. 
  * The cells have two possible states: live or dead.
  * Every cell interacts with its eight neighbors (the cells that are horizontally, vertically, or diagonally adjacent).
