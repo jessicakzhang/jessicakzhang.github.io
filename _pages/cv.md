@@ -12,13 +12,20 @@ redirect_from:
 Education
 ======
 * High School Diploma, Summa Cum Laude, Hamilton High School, 2021
-* B.S. in Physics and Math, University of Arizona, 2025 (expected)
+* B.S. in Physics, Math, University of Arizona, 2025 (expected)
+  * GPA: 4.0/4.0 
+      * Relevant Coursework: Quantum Theory, Theoretical Mechanics, Biophysics, Computational Physics, Organic Chemistry, Honors Relativity and Quantum Physics, Honors Optics and Thermodynamics, Linear Algebra, Biochemistry
 
 Experience
 ======
-* Present: Research Assistant, University of Arizona College of Medicine - Phoenix: August 2021 - Present
-  * Conducting analyses on data from electrophysiology, bioinformatics, animal behavior using code and machine learning tools to study neurological function in rats
-  * Supervisor: Dr. Shenfeng Qiu
+* Student Researcher, Center for Innovation in Brain Science - Tucson: May 2022 - Present
+  * Integrated transcriptomic data and protein-protein and protein-drug data repositories to build an Alzheimer’s disease specific network. 
+  * Exploited the topological features of the PPI networks using graph theory to identify new drug target combinations
+  * Developed a novel computational score to identify and rank synergistic multi-drug combinations 
+
+* Research Assistant, University of Arizona College of Medicine - Phoenix: August 2021 - Present
+  * Investigated the effects of familial Alzheimer’s Disease mutations on early developing brain circuits using R and Python
+  * Developed RNA sequencing pipeline and conducted differential gene expression analysis using R and Python on mouse brain read counts
 
 * Qubit by Qubit Quantum Computing Summer School Student: Summer 2021
   * Ran a Variational Quantum Eigensolver to simulate a molecule
@@ -30,36 +37,14 @@ Experience
   * Created video lecture on wave-particle duality for the annual ASU OpenDoor Exhibition at AZSciTech Festival
   * Programmed quantum mechanics principles to model areas of wave-particle duality and electron diffraction/interference
   * Conducted literature reviews and mathematical proofs
-  
-* Intern, Neurology and Sleep Medicine Associates: May 2018 - July 2018
-  * Observed medical procedures, including EEGs, VNGs, and Botox injections for migraines
-  * Assisted medical technicians and staff in providing clinical care by escorting and socializing with patients
 
-  
-Skills
+Publications
 ======
-* Programming experience in Python and R
-* Microsoft Office
-* Git (basic fork and pull request workflow)
-* Adobe services
-  * Photoshop
-  * Illustrator
-  * Lightroom
-* General laboratory skills 
-* Strong math and analytical skills
-  
-  
-Service and leadership
+Bai, F., Chen, C., Wei, J., Ma, X., Xia, B., Shakir, N., Zhang, J., Zhang, L., Cui, Y., Qiu, S. (2022). Disrupted developmental maturation of prefrontal layer 5 neuronal circuits in an Alzheimer’s mouse model of amyloid deposition. Neuroscience Bulletin. 
+
+Bai, F., Chen, C., Ma, X., Wei, J., Shakir, N., Zhang, J., Zhang, L., Nehme, A., Ciu, Y., Ferguson, D., Qiu, S. (2022). Early impairment of developmental cortical circuit plasticity and connectivity in the 5xFAD Alzheimer’s disease mouse model. Translational Psychiatry. 
+
+Poster Presentations
 ======
-* Self-directed research activities: Summer 2020
-  * Built a cloud chamber, a particle detector that ionizes passing charged particles through supersaturated alcohol vapor
-  * Conducted independent statistical analysis and graphical modeling of COVID spread and death rates in Arizona counties
+Zhang, J., Wang, T., Brinton, R., Vitali, F. (2022). Computational Identification of precision therapeutics for Alzheimer’s disease specific to endocrine and APOE genotype status. 34th Annual Undergraduate Biology Research Program Conference, Tucson, AZ.   
 
-* French Club: August 2018 - May 2021
-  * President and webmaster
-
-* Science Olympiad Club: August 2019 - May 2021
-  * Event manager and webmaster
-  
-* Alpha Epsilon Delta: August 2021 - Present
-  * Active member of this national pre-professional health honor society
