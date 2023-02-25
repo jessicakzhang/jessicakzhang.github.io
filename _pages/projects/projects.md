@@ -12,3 +12,5 @@ On this page you will find projects that I have done related to coding practice 
 [AZ Counties COVID-19 Visualization](/covid)
 
 [Tree Cover and Household Income Visualization](/tree_income_visualization)
+
+[Chaos: The Double Pendulum](/chaosDoublePendulum)
