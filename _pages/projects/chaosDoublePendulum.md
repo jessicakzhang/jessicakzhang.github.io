@@ -207,9 +207,11 @@ ani = animation.FuncAnimation(
     fig, animate, len(gen_coords), interval=dt*1000, blit=True)
 plt.show()
 ```
+To download the interactive notebook, go [here](https://github.com/jessicakzhang/chaosDoublePendulum).
 
 ### Results
 Here is an example of the resulting animation:
+
 ![](/images/pendulum.gif)
 
 ### Discussion
