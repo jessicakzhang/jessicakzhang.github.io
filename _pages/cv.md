@@ -9,12 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+### Education
 ======
-* High School Diploma, Summa Cum Laude, Hamilton High School, 2021
-* B.S. in Physics, Math, University of Arizona, 2025 (expected)
+* B.S. in Physics, with Distinction, Stanford University, 2026
   * GPA: 4.0/4.0 
-      * Relevant Coursework: Quantum Theory, Theoretical Mechanics, Biophysics, Computational Physics, Organic Chemistry, Honors Relativity and Quantum Physics, Honors Optics and Thermodynamics, Linear Algebra, Biochemistry
+      * Relevant Coursework: Machine Learning, Natural Language Processing, Computational Physics, Statistical Mechanics, Programming Abstractions, Quantum Theory
 
 Experience
 ======
